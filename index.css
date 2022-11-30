@@ -1,0 +1,251 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+.header {
+    height: 50px;
+    width: 100%;
+    background-color:#E4E4E4;
+    margin: o auto;
+    display: flex;
+}  
+.header-img {
+    display: flex;
+    align-items:center; 
+    margin-left: 200px; 
+    margin-right: 8px; 
+}
+.header-section {
+    float: left;
+    border-left: 1px black solid;
+    height: 100%;
+}
+.header-sign-in {
+    display: flex;
+    align-items:center; 
+    margin-left: 8px; 
+    margin-right: 8px; 
+    width: 150px;
+}
+.header-link-sing-in {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+}
+.header-bell {
+    display: flex;
+    align-items:center; 
+    margin-left: 13px; 
+    margin-right: 8px;
+    width: 40px; 
+}
+.header-link-bell {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+}
+.header-menu {
+  display: flex;
+  align-items:center; 
+  padding-left: 8px; 
+  margin-right: 8px; 
+  font-weight: bold;
+}
+.btn {
+  background-color: #E4E4E4;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+.btn:hover {color: rgb(219, 98, 0);}
+
+.header-menu-more {
+  width: 100px;
+}
+.header-search {
+  display: flex;
+  align-items:center; 
+  padding-left: 8px;
+ 
+}
+.search-box {
+  background-color:  hsl(0, 4%, 77%);
+  border: none;
+  font-weight: bold;
+  font-size: 15px; 
+  float: left;
+}
+.magnifying-glass {
+height: 30px;
+}
+.bottom-header {
+  height: 80px;
+  width: 100%;
+  background-color:#000000;
+  margin: o auto;
+  display: flex;
+}
+.bottom-header-title {
+  color: #E4E4E4;
+  display: flex;
+  align-items:center; 
+  margin-left: 195px; 
+  font-size: 30px;
+  }
+  .bottom-header-local {
+    margin-left :800px ;
+    display: flex;
+    align-items:center; 
+    margin-right: 10px;
+    font-size: 40px;    
+    
+  }
+  .bottom-header-local-link {
+    color: #E4E4E4;
+    text-decoration: none;
+  }
+  .down-header {
+  height: 40px;
+  width: 100%;
+  background-color:#090808;
+  margin: o auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.down-header-menu {
+  color: #E4E4E4;
+  text-decoration: none;
+  display: flex;
+  align-items:center; 
+  padding-left: 8px;
+  padding-right: 8px; 
+  font-weight: bold;
+  border-right:1px solid #E4E4E4 ;
+  height: 100%;
+}
+.fade {
+  color:#E4E4E4;
+  transition: 0.3s;
+}
+
+.fade:hover {color: rgb(219, 98, 0);}
+.down-header-menu-more {
+  margin-left:10px ;
+
+  padding: 0 auto;
+}
+.made {
+  color:#E4E4E4;
+  transition: 0.3s;
+}
+
+.made:hover {color: rgb(176, 0, 0);}
+
+.main-header {
+  margin-top: 20px;
+  margin-left: 200px;
+  width: 980px;
+  height: 40px;
+  background-color:  #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.basic-content-main {
+  margin-top: 20px;
+  margin-left: 200px;
+  width: 1140px;
+  height: 692px;
+  background-color:  #ffffff;
+  display: flex;
+  justify-content: space-between;
+
+}
+.sade {
+  color:#000000;
+  transition: 0.3s;
+}
+
+.sade:hover {color: rgb(176, 0, 0);}
+
+.text-content-main {
+  width: 300px;
+  height: 523px;
+  background-color: #ffffff;
+}
+pre {
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+
+}
+.gade {color:#b50000;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.gade:hover {color: rgb(5, 66, 135);}
+
+.twitter-content-main {
+  width: 270px;
+  height: 435px;
+  background-color: #ffffff;
+}
+.lade {color:#000000;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.lade:hover {color: rgb(5, 66, 135);}
+
+.asda-content-main {
+  margin-left: 40px;
+  width: 399px;
+  height: 523px;
+  background-color: #ffffff;
+}
+.another-content-main {
+  margin-top: 27px;
+  width: 399px;
+  height: 435px;
+  background-color: #ffffff;
+}
+.watch-listen-img {
+  margin-left: 35px;
+  width: 100px;
+  height:  692px;
+  background-color: #ffffff;
+  display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+.articel-img {
+  height: 55px;
+  width: 100px;
+}
+.watch-listen-text {
+  margin-left: 20px;
+  width:230px;
+  height:  692px;
+  background-color: #ffffff;
+}
